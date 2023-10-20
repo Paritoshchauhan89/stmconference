@@ -1,0 +1,12 @@
+.col-lg-prc{
+    display: flex;
+    width: 33.333%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .col-lg-prc  {
+    display: block;
+    width: fit-content;
+}
+}
